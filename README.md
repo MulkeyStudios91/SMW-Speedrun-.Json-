@@ -1,303 +1,129 @@
-[README.md](https://github.com/user-attachments/files/28334646/README.md)
-\# Super Mario World Speedrun JSON Files
+# Super Mario World Autosplit JSONs
 
+Route JSON files for Super Mario World speedrunning autosplit setups.
 
+These files are meant for LiveSplit autosplitting setups that can load a JSON route definition. Each file contains an autostart condition and a route-specific list of split triggers.
 
-This repository contains `.json` files for Super Mario World speedrun autosplitting routes.
+## Intended Setup
 
+These JSON files are built around a console memory-reading setup, not manual splits.
 
+The expected setup is:
 
-These files are made for use with Super Mario World speedrunning setups, especially LiveSplit/autosplitter setups that load route-specific JSON files.
+- Super Nintendo / compatible console
+- FXPAK Pro
+- USB2SNES or QUsb2SNES connection
+- LiveSplit
+- LiveSplit autosplitter support
+- `livesplit-usb2snes.dll` or an equivalent USB2SNES LiveSplit component
 
+If your emulator, console connection, or LiveSplit component reads memory differently, some addresses may need testing or adjustment.
 
+## Available Files
 
-\## About This Repository
+| Category | File |
+| --- | --- |
+| 96 Exit | `smw 96 Exit.json` |
+| 95 Exit, No Cape | `smw_95_exit_no_cape.json` |
+| All Castles | `smw_all_castles.json` |
+| All Castles, No Cape | `smw_all_castles_no_cape.json` |
+| All Castles, Small Only | `smw_all_castles_small_only.json` |
+| No Starworld | `smw_no_starworld.json` |
+| No Cape, No Starworld | `smw_no_cape_no_starworld.json` |
+| No Starworld, Small Only | `smw_no_starworld_small_only.json` |
+| 11 Exit | `smw_11exit.json` |
+| 11 Exit, No Cape | `smw_11_exit_no_cape.json` |
+| Small Only | `smw_small_only.json` |
+| Lunar Dragon | `smw_lunar_dragon.json` |
+| 0 Exit | `smw_0_exit.json` |
 
+## What These Files Do
 
+The JSON files split on game memory values. The current route files mainly use:
 
-This repo is for storing and sharing Super Mario World speedrun JSON files.
+| Address | Use |
+| --- | --- |
+| `13BF` | Current level / translevel guard |
+| `1493` | Normal level clear and boss clear trigger |
+| `1434` | Keyhole exit trigger |
+| `1609` | Bowser / final ending trigger used by the current files |
 
+The keyhole exits use `1434 > 0` instead of the older `13CE == 0x01` check.
 
+## Important Limitations
 
-The goal is to keep the files organized, easy to download, and easy to update when routes or autosplit behavior changes.
+These files split route progress. They do not judge category rules by themselves.
 
+For example:
 
+- No Cape files do not check whether Cape Mario was used.
+- Small Only files do not check Mario's powerup state.
+- Lunar Dragon currently uses the 96 Exit-style route triggers and does not verify dragon coins or moons.
+- No Starworld files split the No Starworld route, but they do not independently validate rule compliance.
 
-These files may include setups for:
+Always test the file before using it for serious attempts.
 
+## How to Download
 
+1. Click the JSON file you want.
+2. Click **Raw**.
+3. Right-click the raw page.
+4. Choose **Save As**.
+5. Save the file somewhere easy to find.
 
-\- 11 Exit
-
-\- 96 Exit
-
-\- Auto start / auto end only
-
-\- Testing or experimental versions
-
-
-
-\## Important Game Name Rule
-
-
-
-The file name can be different depending on the route, but inside each JSON file the game value should stay exactly:
-
-
-
-```json
-
-"game": "Super Mario World"
-
-```
-
-
-
-Do not change that value unless you know your autosplitter setup specifically requires something different.
-
-
-
-\## How to Download a JSON File
-
-
-
-1\. Click the `.json` file you want to use.
-
-2\. Click the \*\*Raw\*\* button.
-
-3\. Right-click the page.
-
-4\. Choose \*\*Save As\*\*.
-
-5\. Save the file somewhere easy to find on your computer.
-
-
-
-Recommended folder example:
-
-
+Suggested folder:
 
 ```text
-
-Documents/Speedrun Files/Super Mario World/
-
+Documents/Speedrunning/SMW Speedrun/
 ```
 
+## How to Use
 
+1. Open LiveSplit.
+2. Make sure your FXPAK Pro and USB2SNES/QUsb2SNES connection are running.
+3. Make sure LiveSplit has the USB2SNES component installed, such as `livesplit-usb2snes.dll`.
+4. Load the JSON file for your category.
+5. Confirm LiveSplit is reading game memory.
+6. Run a short test before doing attempts.
 
-\## How to Use These Files
+## Testing Checklist
 
+Before trusting a file, check:
 
+- The timer starts at the correct time.
+- Normal exits split correctly.
+- Keyhole exits split correctly.
+- Boss exits split correctly.
+- Star World exits split separately when expected.
+- The final split ends correctly.
+- A wrong exit or route mistake does not cause confusing split behavior.
 
-1\. Download the `.json` file for the route you want.
+## Common Problems
 
-2\. Open your LiveSplit/autosplitter setup.
+### The Timer Does Not Start
 
-3\. Make sure your Super Mario World autosplitter is installed and working.
+Check that the autosplitter is connected, the correct JSON is loaded, and the game memory is being read correctly.
 
-4\. Load or select the `.json` file for the route you are running.
+### A Split Happens Too Early Or Too Late
 
-5\. Make sure your emulator, console, or USB2SNES/QUsb2SNES connection is working.
+The route may need a different memory condition, or the split may be using a trigger that fires at a different part of the exit animation than expected.
 
-6\. Test the file before doing serious attempts.
+### A Secret Exit Does Not Split
 
+For keyholes, this repo currently uses `1434 > 0`. If a specific secret exit behaves differently, that exit may need a special case.
 
+### Two Splits Happen Together
 
-\## Recommended Testing
+Some SMW exits share level IDs or exit behavior. Route order usually prevents problems, but paired normal/secret exits should always be tested.
 
+## Versions
 
+GitHub keeps the full history of this repository. If you need an older version of a file, open the commit history and download the file from the older commit.
 
-Before using one of these files for real runs, test it in practice first.
+For known-good public checkpoints, use GitHub releases.
 
+## Credits
 
+Maintained by Mulkey Studios / CookieGames1991.
 
-Check that:
-
-
-
-\- The timer starts correctly.
-
-\- Normal exits split correctly.
-
-\- Secret exits split correctly.
-
-\- Boss exits split correctly.
-
-\- Star World exits split separately when they are supposed to.
-
-\- The final split/end trigger works correctly.
-
-\- No two exits split at the same time unless that is intended.
-
-
-
-\## Common Issues
-
-
-
-\### The timer does not start
-
-
-
-Check that:
-
-
-
-\- The autosplitter is connected.
-
-\- The correct JSON file is loaded.
-
-\- Your emulator or console connection is working.
-
-\- The game is actually being read by the autosplitter.
-
-
-
-\### A split happens at the wrong time
-
-
-
-This usually means one of the route conditions may need to be adjusted.
-
-
-
-Possible causes:
-
-
-
-\- Wrong level ID
-
-\- Wrong exit trigger
-
-\- Normal exit and secret exit using overlapping conditions
-
-\- Boss exit using a different memory value than expected
-
-\- Route file made for a different category
-
-
-
-\### Two splits happen at the same time
-
-
-
-This usually means two exits share part of the same condition.
-
-
-
-For example, a normal exit and secret exit may both be checking the same value without enough extra information to separate them.
-
-
-
-\### A split never happens
-
-
-
-This usually means the JSON file is checking the wrong value, wrong level ID, or wrong exit condition for that part of the route.
-
-
-
-\## File Organization
-
-
-
-Files may be organized by route.
-
-
-
-Example:
-
-
-
-```text
-
-11-exit/
-
-96-exit/
-
-testing/
-
-```
-
-
-
-Or they may be stored in the main folder if there are only a few files.
-
-
-
-\## Suggested File Names
-
-
-
-Examples:
-
-
-
-```text
-
-smw\_11exit.json
-
-smw\_96exit.json
-
-smw\_96exit\_autostart\_end.json
-
-smw\_96exit\_testing.json
-
-```
-
-
-
-The file name is only for organization. The important part is that the JSON itself is correct.
-
-
-
-\## Notes for Speedrunners
-
-
-
-These files are provided as route tools for Super Mario World speedrunning.
-
-
-
-They may not work correctly if:
-
-
-
-\- Your autosplitter setup is different.
-
-\- Your emulator/core is different.
-
-\- Your console connection is not reading memory correctly.
-
-\- The route uses different rules.
-
-\- The JSON file has been edited incorrectly.
-
-
-
-Always test before doing real attempts.
-
-
-
-\## Updates
-
-
-
-Files may be updated over time as issues are found or routes are improved.
-
-
-
-If something splits incorrectly, make sure you are using the newest version of the file.
-
-
-
-\## Credits
-
-
-
-Created and maintained by Mulkey Studios / CookieGames1991.
-
-
-
-These files are for Super Mario World speedrunning and autosplitting.
-
+Built for the Super Mario World speedrunning community.
