@@ -82,9 +82,9 @@
     },
     {
       "name": "Donut Plains 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Donut Plains 1 - Secret Exit - Level ID",
@@ -133,9 +133,9 @@
     },
     {
       "name": "Donut Secret 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Donut Secret 1 - Secret Exit - Level ID",
@@ -278,9 +278,9 @@
     },
     {
       "name": "Vanilla Dome 2 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Vanilla Dome 2 - Secret Exit - Level ID",
@@ -465,9 +465,9 @@
     },
     {
       "name": "Star World 3 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Star World 3 - Secret Exit - Level ID",
@@ -499,9 +499,9 @@
     },
     {
       "name": "Star World 4 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Star World 4 - Secret Exit - Level ID",
@@ -533,9 +533,9 @@
     },
     {
       "name": "Star World 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Star World 1 - Secret Exit - Level ID",
@@ -550,9 +550,9 @@
     },
     {
       "name": "Star World 2 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Star World 2 - Secret Exit - Level ID",
@@ -618,9 +618,9 @@
     },
     {
       "name": "Star World 5 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Star World 5 - Secret Exit - Level ID",
@@ -822,9 +822,9 @@
     },
     {
       "name": "Donut Plains 2 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Donut Plains 2 - Secret Exit - Level ID",
@@ -890,9 +890,9 @@
     },
     {
       "name": "Vanilla Dome 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Vanilla Dome 1 - Secret Exit - Level ID",
@@ -907,9 +907,9 @@
     },
     {
       "name": "Vanilla Secret 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Vanilla Secret 1 - Secret Exit - Level ID",
@@ -1060,9 +1060,9 @@
     },
     {
       "name": "Forest of Illusion 2 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Forest of Illusion 2 - Secret Exit - Level ID",
@@ -1094,9 +1094,9 @@
     },
     {
       "name": "Forest of Illusion 1 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Forest of Illusion 1 - Secret Exit - Level ID",
@@ -1179,9 +1179,9 @@
     },
     {
       "name": "Forest of Illusion 4 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Forest of Illusion 4 - Secret Exit - Level ID",
@@ -1247,9 +1247,9 @@
     },
     {
       "name": "Forest of Illusion 3 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Forest of Illusion 3 - Secret Exit - Level ID",
@@ -1528,9 +1528,9 @@
     },
     {
       "name": "Valley Ghost House - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Valley Ghost House - Secret Exit - Level ID",
@@ -1579,9 +1579,9 @@
     },
     {
       "name": "Valley of Bowser 4 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Valley of Bowser 4 - Secret Exit - Level ID",
@@ -1630,9 +1630,9 @@
     },
     {
       "name": "Valley of Bowser 2 - Secret Exit",
-      "address": "13CE",
-      "value": "0x01",
-      "type": "eq",
+      "address": "1434",
+      "value": "0x00",
+      "type": "gt",
       "more": [
         {
           "name": "Valley of Bowser 2 - Secret Exit - Level ID",
