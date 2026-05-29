@@ -124,6 +124,6 @@ For known-good public checkpoints, use GitHub releases.
 
 ## Credits
 
-Maintained by Mulkey Studios / CookieGames1991.
+Maintained by Mulkey Studios 
 
 Built for the Super Mario World speedrunning community.
