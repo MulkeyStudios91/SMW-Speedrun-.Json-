@@ -1,0 +1,24 @@
+﻿{
+    "name":  "SMW 0 Exit",
+    "autostart":  {
+                      "active":  "1",
+                      "name":  "Autostart - Mario Start",
+                      "address":  "0100",
+                      "value":  "0x0B",
+                      "type":  "eq",
+                      "more":  null,
+                      "next":  null
+                  },
+    "igt":  null,
+    "alias":  null,
+    "definitions":  [
+                        {
+                            "name":  "Credits",
+                            "address":  "0100",
+                            "value":  "0x1B",
+                            "type":  "eq",
+                            "more":  null,
+                            "next":  null
+                        }
+                    ]
+}

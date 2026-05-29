@@ -1,0 +1,594 @@
+﻿{
+    "name":  "SMW All Castles",
+    "autostart":  {
+                      "active":  "1",
+                      "name":  "Autostart - Mario Start",
+                      "address":  "0100",
+                      "value":  "0x0B",
+                      "type":  "eq",
+                      "more":  null,
+                      "next":  null
+                  },
+    "igt":  null,
+    "alias":  null,
+    "definitions":  [
+                        {
+                            "name":  "Yoshi\u0027s Island 2",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Yoshi\u0027s Island 2 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x2A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Yoshi\u0027s Island 3",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Yoshi\u0027s Island 3 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x27",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Yoshi\u0027s Island 4",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Yoshi\u0027s Island 4 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x26",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Iggy\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Iggy\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x25",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Plains 1 - Secret Exit",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Donut Plains 1 - Secret Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x15",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Secret 1 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Donut Secret 1 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x0A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Ghost House - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Donut Ghost House - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x04",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Plains 3",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Donut Plains 3 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x05",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Plains 4",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Donut Plains 4 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x06",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Morton\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Morton\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x07",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Vanilla Dome 1 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Vanilla Dome 1 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x3E",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Vanilla Dome 2 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Vanilla Dome 2 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x3C",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Vanilla Ghost House",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Vanilla Ghost House - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x2B",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Vanilla Dome 3",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Vanilla Dome 3 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x2E",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Vanilla Dome 4",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Vanilla Dome 4 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x3D",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Lemmy\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Lemmy\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x40",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Cheese Bridge Area - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Cheese Bridge Area - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x0F",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Cookie Mountain",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Cookie Mountain - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x10",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Ludwig\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Ludwig\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x0E",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Forest of Illusion 1 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Forest of Illusion 1 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x42",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Forest of Illusion 2 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Forest of Illusion 2 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x44",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Forest of Illusion 3 - Secret Exit",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Forest of Illusion 3 - Secret Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x47",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Roy\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Roy\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x20",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Chocolate Island 1",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Chocolate Island 1 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x22",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Choco-Ghost House",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Choco-Ghost House - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x21",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Chocolate Island 2 - Secret Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Chocolate Island 2 - Secret Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x24",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Chocolate Secret",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Chocolate Secret - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x3B",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Wendy\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Wendy\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x1A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Sunken Ghost Ship",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Sunken Ghost Ship - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x18",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Valley of Bowser 1",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Valley of Bowser 1 - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x3A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Valley of Bowser 2 - Normal Exit",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Valley of Bowser 2 - Normal Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x39",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Valley Ghost House - Secret Exit",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Valley Ghost House - Secret Exit - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x38",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Larry\u0027s Castle",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Larry\u0027s Castle - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x34",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Front Door",
+                            "address":  "1609",
+                            "value":  "0x600",
+                            "type":  "weq",
+                            "more":  [
+                                         {
+                                             "name":  "Front Door - Level ID",
+                                             "address":  "13BF",
+                                             "value":  "0x31",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        }
+                    ]
+}

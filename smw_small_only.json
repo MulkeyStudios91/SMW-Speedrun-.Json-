@@ -1,0 +1,220 @@
+﻿{
+    "name":  "SMW Small Only",
+    "autostart":  {
+                      "active":  "1",
+                      "name":  "Autostart",
+                      "address":  "0100",
+                      "value":  "0x90B",
+                      "type":  "weq",
+                      "more":  null,
+                      "next":  null
+                  },
+    "igt":  null,
+    "alias":  null,
+    "definitions":  [
+                        {
+                            "name":  "Yoshi 2",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "YI2 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x2A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Yoshi 3",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "YI3 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x27",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Yoshi 4",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "YI4 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x26",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Castle 1",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "Iggy Level",
+                                             "address":  "13BF",
+                                             "value":  "0x25",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut 1",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "DP1 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x15",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Secret",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "DS1 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x0A",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Donut Ghost",
+                            "address":  "1493",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "DSH Level",
+                                             "address":  "13BF",
+                                             "value":  "0x13",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Star World 1",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "SW1 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x58",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Star World 2",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "SW2 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x54",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Star World 3",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "SW3 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x56",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Star World 4",
+                            "address":  "1434",
+                            "value":  "0x00",
+                            "type":  "gt",
+                            "more":  [
+                                         {
+                                             "name":  "SW4 Level",
+                                             "address":  "13BF",
+                                             "value":  "0x59",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        },
+                        {
+                            "name":  "Bowser",
+                            "address":  "1609",
+                            "value":  "0x600",
+                            "type":  "weq",
+                            "more":  [
+                                         {
+                                             "name":  "Bowser Level",
+                                             "address":  "13BF",
+                                             "value":  "0x31",
+                                             "type":  "eq",
+                                             "more":  null,
+                                             "next":  null
+                                         }
+                                     ],
+                            "next":  null
+                        }
+                    ]
+}
